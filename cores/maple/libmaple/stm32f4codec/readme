@@ -1,0 +1,7 @@
+// STM32F4 discovery CS43L22 codec initialisation and use. S.Scutt 05/2015
+
+// spi.c, spi.h and rccF2.c and .h have been changed in order for the STM32F4 discovery's codec to work in 16 bit slave mode.
+// The codec.h file contains functions for setting up the I2S and I2C.
+// An example has been provided that plays a sine wave out of the headphone socket
+// The implemetation of the codec stuff is crude but I will eventually write some functions that enable the user to change the sampling frequency, bit depth, I2S standard etc...
+// Its nice to have it working for the moment. :)
